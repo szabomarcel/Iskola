@@ -1,0 +1,15 @@
+.circle {
+    border: solid;
+    border-radius: 50%;
+    padding: 40px 40px 40px 40px;
+    border-color: purple;
+    background-color: aqua;
+}
+
+.cirs {
+    display: block;
+    border: solid;
+    border-radius: 50%;
+    padding: 20px 5px 20px 5px;
+    border-color: black;
+}
