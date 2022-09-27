@@ -50,3 +50,8 @@ p {
 b {
     color: rgba(0,200,0);
 }
+
+img {
+    border-radius: 100px;
+    width: 50%;
+}
