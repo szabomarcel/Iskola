@@ -13,3 +13,25 @@
     padding: 20px 5px 20px 5px;
     border-color: black;
 }
+
+.black-hr {
+    border: solid;
+    border-width: 1px;
+    color: black;
+}
+
+.gray-hr {
+    border: solid;
+    border-width: 1px;
+    color: gray;
+}
+
+.u-class {
+    border: solid;
+    padding: 30px 50px 30px 30px;
+    display: block;
+    border-width: 2px;
+    margin-right: 50%;
+    margin-left: 50%;
+    border-radius: 50% 20% 10%;
+}
