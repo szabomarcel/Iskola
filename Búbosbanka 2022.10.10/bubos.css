@@ -1,0 +1,33 @@
+body {
+    background-color: #E7E7FF;
+    color: #1D1D4E;
+}
+
+img {
+    width: 200px;
+    border: solid;
+    border-color: #1D1D4E;
+    border-width: 1px;
+    position: absolute;
+}
+
+.szevasz {
+    margin-left: 220px;
+}
+
+.textxd {
+    margin-left: 220px;
+}
+
+table {
+    border: solid;
+    border-width: 1px;
+}
+
+td {
+    border: fost;
+}
+
+.puki {
+
+}
