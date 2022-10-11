@@ -14,7 +14,13 @@ center:after {
 }
 
 a {
-    color: #007700
+    color: #007700;
+}
+
+.bolondos {
+    width: 150px;
+    height: 120px;
+    border: 0;
 }
 
 table {
