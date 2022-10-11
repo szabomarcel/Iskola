@@ -20,7 +20,11 @@ a {
 .bolondos {
     width: 150px;
     height: 120px;
-    border: 0;
+    border: 0px;
+}
+
+.fost {
+    border: 0px;
 }
 
 table {
