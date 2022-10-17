@@ -1,0 +1,31 @@
+body {
+    background-color: rgba(200,200,200);
+}
+
+li {
+    width: 100px;
+}
+
+ul li {
+    background-color: azure;
+    margin: 10px 0 10px 0;
+}
+
+ul ul {
+    background-color: black;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+ul ul li {
+    margin-top: 10px;
+    background-color: white;
+}
+
+ul ul ul li {
+    background-color: bisque;
+}
+
+div > p {
+    background-color: burlywood;
+}
