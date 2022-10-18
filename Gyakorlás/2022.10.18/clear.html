@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clear</title>
+        <style>
+            .balra      { float: left;    }
+            .jobbra     { float: right;   }
+            .nincs      { float: none;    }
+            .orokolt    { float: inherit; }
+            .kiurit     { clear: right;   }
+
+            img         { height: 80px;   }
+        </style>
+    </head>
+    <body>
+        <img class="jobbra" src="mosoly_k_1.jpg">
+        <p   class="jobbra" >Valami random szöveg</p>
+        <img class="nincs"  src="mosoly_k_1.jpg">
+        <div class="kiurit" ></div>
+        <img class="jobbra" src="mosoly_k_1.jpg">
+        <img class="nincs"  src="mosoly_k_1.jpg">
+        <img class="balra"  src="mosoly_k_1.jpg">
+    </body>
+</html>

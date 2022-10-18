@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hu">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+         body {
+            counter-reset: h1-ct;
+         }
+
+         h1 {
+            counter-reset: h2-ct;
+            margin-top: 100px;
+         }
+
+         h1::before {
+            counter-increment: h1-ct;
+            content: counter(h1-ct)". ";
+         }
+
+         h2 {
+            counter-reset: h3-ct;
+            margin-left: 30px;
+         }
+
+         h2::before {
+            counter-increment: h2-ct;
+            content: counter(h1-ct)"."counter(h2-ct)". ";
+         }
+
+         h3 {
+            margin-left: 60px;
+         }
+
+         h3::before {
+            counter-increment: h3-ct;
+            content: counter(h1-ct)"."counter(h2-ct)"."counter(h3-ct)". ";
+         }
+      </style>
+   </head>
+   <body>
+      <h1>Ez a címsor</h1>
+      <h2>Ez az első cucc</h2>
+      <h2>Ez az második cucc</h2>
+      <h3>Kicsi branch 1.</h3>
+      <h3>Kicsi branch 2.</h3>
+      <h2>Ez az harmadik cucc</h2>
+      <h1></h1>
+      <h2></h2>
+      <h2></h2>
+      <h2></h2>
+      <h3></h3>
+      <h3></h3>
+      <h3></h3>
+      <h2></h2>
+   </body>
+</html>

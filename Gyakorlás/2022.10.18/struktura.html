@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Structure Próba</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            header {
+                background-color: #666;
+                padding: 20px;
+                text-align: center;
+                color: white;
+                margin-bottom: -20px;
+            }
+
+            nav {
+                float: left;
+                width: 30%;
+                height: 300px;
+                background-color: #ccc;
+                padding: 20px;
+            }
+
+            section {
+                background-color: #ddd;
+            }
+
+            footer {
+                background-color: #aaa;
+                padding: 30px;
+                text-align: center;
+            }
+
+            section::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            aside {
+                float: right;
+                
+                width: 30%;
+                height: 300px;
+                background-color: #ccc;
+            }
+
+            @media (max-width: 600px) {
+                nav, article, aside {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>Ez egy cím a fejlécben</h2>
+            <div>HTML5 Struktúra próba</div>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li>Ez egy navbar</li>
+                    <li><a href="#">1.</a></li>
+                    <li><a href="#">2.</a></li>
+                    <li><a href="#">3.</a></li>
+                </ul>
+            </nav>
+            <article>
+                <h1>Ez egy "article"</h1>
+                <p>Ez pedig a hozzá tartozó szöveg</p>
+            </article>
+            <aside>
+                Ez pl egy bolondos aside
+            </aside>
+        </section>
+        <footer>Ez a lábjegyzék</footer>
+    </body>
+</html>
