@@ -1,0 +1,1 @@
+45 fokkal balrább fog nézni.

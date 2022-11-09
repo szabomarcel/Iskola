@@ -1,0 +1,62 @@
+import turtle
+
+screen = turtle.Screen()
+teknos = turtle.Turtle()
+
+teknos.forward(100)
+teknos.left(120)
+teknos.forward(100)
+teknos.left(120)
+teknos.forward(100)
+teknos.left(120)
+
+screen.clear()
+teknos = turtle.Turtle()
+
+teknos.forward(100)
+teknos.left(90)
+teknos.forward(100)
+teknos.left(90)
+teknos.forward(100)
+teknos.left(90)
+teknos.forward(100)
+teknos.left(90)
+
+screen.clear()
+teknos = turtle.Turtle()
+
+
+teknos.forward(100)
+teknos.left(60)
+teknos.forward(100)
+teknos.left(60)
+teknos.forward(100)
+teknos.left(60)
+teknos.forward(100)
+teknos.left(60)
+teknos.forward(100)
+teknos.left(60)
+teknos.forward(100)
+teknos.left(60)
+
+screen.clear()
+teknos = turtle.Turtle()
+
+teknos.forward(50)
+teknos.left(45)
+teknos.forward(50)
+teknos.left(45)
+teknos.forward(50)
+teknos.left(45)
+teknos.forward(50)
+teknos.left(45)
+teknos.forward(50)
+teknos.left(45)
+teknos.forward(50)
+teknos.left(45)
+teknos.forward(50)
+teknos.left(45)
+teknos.forward(50)
+teknos.left(45)
+
+screen.mainloop()
