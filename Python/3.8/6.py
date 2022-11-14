@@ -2,61 +2,19 @@ import turtle
 
 screen = turtle.Screen()
 teknos = turtle.Turtle()
-
-teknos.forward(100)
-teknos.left(120)
-teknos.forward(100)
-teknos.left(120)
-teknos.forward(100)
-teknos.left(120)
-
-screen.clear()
-teknos = turtle.Turtle()
-
-teknos.forward(100)
-teknos.left(90)
-teknos.forward(100)
-teknos.left(90)
-teknos.forward(100)
-teknos.left(90)
-teknos.forward(100)
-teknos.left(90)
-
-screen.clear()
-teknos = turtle.Turtle()
+class Teknös:
+   def Kiiras(hanyszor, fok):
+      screen.clear()
+      teknos = turtle.Turtle()
+      for i in range(0, hanyszor):
+         teknos.left(fok)
+         teknos.forward(100)
 
 
-teknos.forward(100)
-teknos.left(60)
-teknos.forward(100)
-teknos.left(60)
-teknos.forward(100)
-teknos.left(60)
-teknos.forward(100)
-teknos.left(60)
-teknos.forward(100)
-teknos.left(60)
-teknos.forward(100)
-teknos.left(60)
 
-screen.clear()
-teknos = turtle.Turtle()
-
-teknos.forward(50)
-teknos.left(45)
-teknos.forward(50)
-teknos.left(45)
-teknos.forward(50)
-teknos.left(45)
-teknos.forward(50)
-teknos.left(45)
-teknos.forward(50)
-teknos.left(45)
-teknos.forward(50)
-teknos.left(45)
-teknos.forward(50)
-teknos.left(45)
-teknos.forward(50)
-teknos.left(45)
+Teknös.Kiiras(3,120)
+Teknös.Kiiras(4,90)
+Teknös.Kiiras(6,60)
+Teknös.Kiiras(8,45)
 
 screen.mainloop()
