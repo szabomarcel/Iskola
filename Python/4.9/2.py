@@ -11,13 +11,16 @@ class Forma:
          teknos.left(90)
          teknos.forward(szélesség)
       teknos.penup()
+      
    def ÚjNégyzet():
       for i in range(0,2):
-         teknos.right(90)
          teknos.forward(10)
+         teknos.right(90)
       teknos.right(180)
 
 for i in range(0,5):
    Forma.Rajzol()
-   teknos.
+   Forma.ÚjNégyzet()
    szélesség += 20
+
+screen.mainloop()
