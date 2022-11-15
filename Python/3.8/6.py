@@ -10,8 +10,6 @@ def Kiiras(hanyszor, fok):
       teknos.left(fok)
       teknos.forward(100)
 
-
-
 Kiiras(3,120)
 Kiiras(4,90)
 Kiiras(6,60)
