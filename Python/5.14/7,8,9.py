@@ -30,6 +30,8 @@ class Rajz:
       t.goto(Rajz.width + 10,0)
       t.end_fill()
       t.penup()
+      t.goto(Rajz.width - 5,height + 5)
+      t.write(" "+ str(height))
       Rajz.width += 20
 
 screen = turtle.Screen()

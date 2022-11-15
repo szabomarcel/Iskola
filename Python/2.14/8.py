@@ -1,25 +1,10 @@
-format = True
+aktualis_ido = int(input("Írd be a jelenlegi időt: "))
+csengetes_ido = int(input("Írd be máhny óra múlva csörögkön az óra: "))
 
-while format:
-   try:
-      jelenlegiIdo = int(input("Írd be a jelenlegi időt (órában megadva): "))
-      format = False
-   except:
-      print("Nem megfelelő formátum!")
-
-format = True
-
-while format:
-   try:
-      csengetes = int(input("Írd be, hogy hány óra múlva csengessen az óra (órában megadva): "))
-      format = False
-   except:
-      print("Nem megfelelő formátum!")
-
-for i in range(0, csengetes):
-   if jelenlegiIdo == 23:
-      jelenlegiIdo = 0
+for i in range(0, csengetes_ido):
+   if aktualis_ido == 23:
+      aktualis_ido = 0
    else:
-      jelenlegiIdo += 1
-      
-print(jelenlegiIdo,"órakkor fog megszólalni a csengő.")
+      aktualis_ido += 1
+
+print("Az óra",aktualis_ido,"órakkor fog megszólalni!")
