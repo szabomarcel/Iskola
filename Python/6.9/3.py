@@ -1,5 +1,10 @@
 napok = [ "Hétfő", "Kedd", "Szerda", "Csütörtök", "Péntek", "Szombat", "Vasárnap" ]
 
-nap = input().lower()
+napIn = input().lower()
+napIndex = None
 
-if 
+for i in range(0, len(napok)):
+   if napIn == napok[i].lower():
+      napIndex = i
+
+print(napIndex)
