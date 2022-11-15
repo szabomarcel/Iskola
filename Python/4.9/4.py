@@ -23,4 +23,6 @@ for i in range(0,5):
    t.right(135)
    t.forward(-140)
    t.left(18)
+
+t.forward(200)
 screen.mainloop()

@@ -1,5 +1,3 @@
-import math
-
 c = 10000   # alaptőke
 r = 0.08    # névleges kamatláb
 m = 12     # évközi kamatozások száma

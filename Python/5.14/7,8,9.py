@@ -44,7 +44,7 @@ t.goto(-180,-200)
 Rajz.szamozas()
 t.penup()
 
-for i in range(0,int(input("Írd be hány darab grafikob lesz: "))):
+for i in range(0,int(input("Írd be hány darab grafikon lesz: "))):
    Rajz.diagram(int(input(f"Írd be az {i + 1}. grafikon nagyságát: ")))
 
 screen.mainloop()
