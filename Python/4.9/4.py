@@ -16,7 +16,7 @@ for i in range(0,5):
    t.forward(140)
    t.left(135)
    t.pendown()
-   for i in range(0,4):
+   for j in range(0,4):
       t.forward(200)
       t.left(90)
    t.penup()
