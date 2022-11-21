@@ -14,5 +14,4 @@ for i in range(12):
    t.penup()
    t.back(101)
    t.right(30)
-
-screen.mainloop()
+   
