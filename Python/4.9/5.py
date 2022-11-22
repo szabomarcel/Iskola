@@ -2,7 +2,7 @@ import turtle
 
 screen = turtle.Screen()
 t = turtle.Turtle()
-t.speed(100)
+t.speed(0)
 hossz = 1
 
 for i in range(0, 100):
@@ -15,11 +15,12 @@ screen.clear()
 t = turtle.Turtle()
 szög = 91
 hossz = 10
-t.speed(100)
+t.speed(0)
 
-for i in range(0, 100):
+for i in range(200):
    t.forward(hossz)
    t.left(szög)
    hossz += 1
+   szög += 1
 
 screen.mainloop()
