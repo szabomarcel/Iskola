@@ -13,13 +13,13 @@ True
 
 # 5
 
-F F F = False
+F F F = True
 F F T = True
-F T F = False
+F T F = True
 F T T = True
-T F F = False
+T F F = True
 T F T = True
-T T F = True
+T T F = False
 T T T = True
 
 """
