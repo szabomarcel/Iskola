@@ -9,7 +9,7 @@ class Ido:
       
       ido = [ora, perc, masodperc]
       return ido
-      
+       
    def percre_valtas(masodpercek):
       marms = masodpercek
       perc = int(round(marms / 60, 0))
