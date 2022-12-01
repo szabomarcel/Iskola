@@ -12,8 +12,11 @@ elif a <= 0:
 elif b <= 0:
    print("A második szám negatív!")
 """
-#2
 
+
+
+#2
+"""
 def HoE(a):
    b = False
    if a > 150:
@@ -27,3 +30,6 @@ if HoE(oldalak):
    print("A könyv hosszú")
 else:
    print("A könyv rövid")
+"""
+
+#3
