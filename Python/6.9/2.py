@@ -1,10 +1,9 @@
 napok = [ "Hétfő", "Kedd", "Szerda", "Csütörtök", "Péntek", "Szombat", "Vasárnap" ]
 
-try:
-   napIndex = int(input("Írja be a nap számát (0-6): "))
-   if napIndex >= 0 and napIndex <= 6:
-      print(napok[napIndex])
-   else:
-      print(None)
-except:
-   print("Nem helyes formátum!")
+def nap_nev(n):
+   n = int(n)
+   if n >= 0 and n <= 6:
+      return napok[n]
+   else: return None
+
+print(nap_nev(input()))

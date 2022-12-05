@@ -1,18 +1,17 @@
 égtájak = [ "É", "K", "D", "Ny" ]
-következő = ""
 
 def fordulj_orajarasi_iranyba(egtaj):
+   egtaj = egtaj.lower()
    if egtaj == "é":
-      következő = "Kelet"
+      return "K"
    elif egtaj == "k":
-      következő = "Dél"
+      return "D"
    elif egtaj == "d":
-      következő = "Nyugat"
+      return "Ny"
    elif egtaj == "ny":
-      következő = "Észak"
+      return "É"
    else:
-      következő = None
-   return következő
+      return None
 
 
-print("A következő égtáj órajárásban", fordulj_orajarasi_iranyba(input("Írd be a jelenlegi égtájat: ").lower()))
+print("A következő égtáj órajárásban", fordulj_orajarasi_iranyba(input("Írd be a jelenlegi égtájat: ")))

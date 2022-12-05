@@ -1,6 +1,7 @@
 def paros_e(n):
    if n%2==0: return True
    else: return False
+
 def paratlan_e(n):
    if n%2==0: return False
    else: return True
