@@ -33,3 +33,17 @@ class Négyzet:
       return 4 * self.a
    def GetTerület(self):
       return self.a ** 2
+
+class Kör:
+   def __init__(self, r):
+      self.r = r
+   
+   def SetR(self, r):
+      self.r = r
+   
+   def GetR(self):
+      return self.r
+   def GetKerület(self):
+      return 2 * 3.14 * self.r
+   def GetTerület(self):
+      return (3.14 * (2 * self.r) ** 2) / 4
