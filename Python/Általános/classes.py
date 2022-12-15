@@ -32,4 +32,4 @@ class Négyzet:
    def GetKerület(self):
       return 4 * self.a
    def GetTerület(self):
-      return self.a * self.a
+      return self.a ** 2
