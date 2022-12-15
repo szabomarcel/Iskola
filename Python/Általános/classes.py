@@ -35,7 +35,7 @@ class Négyzet:
       return self.a ** 2
 
 class Kör:
-   def __init__(self, r):
+   def __init__(self, r = 0):
       self.r = r
    
    def SetR(self, r):
@@ -49,7 +49,7 @@ class Kör:
       return (3.14 * (2 * self.r) ** 2) / 4
 
 class TéglalapHasáb:
-   def __init__(self, a, b, m):
+   def __init__(self, a = 0, b = 0, m = 0):
       self.a = a
       self.b = b
       self.m = m
@@ -78,7 +78,7 @@ class TéglalapHasáb:
       return self.a * self.b * self.m
 
 class Ember:
-   def __init__(self, név, nem):
+   def __init__(self, név = "Droid", nem = "Semleges"):
       self.név = név
       self.nem = nem
    
