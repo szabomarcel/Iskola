@@ -20,7 +20,7 @@ class Téglalap:
    def GetTerület(self):
       return self.a * self.b
 
-class Kör:
+class Négyzet:
    def __init__(self, a = 0):
       self.a = a
    
