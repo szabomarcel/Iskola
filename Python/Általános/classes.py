@@ -19,3 +19,17 @@ class Téglalap:
       return 2 * (self.a + self.b)
    def GetTerület(self):
       return self.a * self.b
+
+class Kör:
+   def __init__(self, a = 0):
+      self.a = a
+   
+   def SetA(self, a):
+      self.a = a
+   
+   def GetA(self):
+      return self.a
+   def GetKerület(self):
+      return 4 * self.a
+   def GetTerület(self):
+      return self.a * self.a
