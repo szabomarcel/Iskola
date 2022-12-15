@@ -47,3 +47,54 @@ class Kör:
       return 2 * 3.14 * self.r
    def GetTerület(self):
       return (3.14 * (2 * self.r) ** 2) / 4
+
+class TéglalapHasáb:
+   def __init__(self, a, b, m):
+      self.a = a
+      self.b = b
+      self.m = m
+   
+   def SetA(self, a):
+      self.a = a
+   def SetB(self, b):
+      self.b = b
+   def SetM(self, m):
+      self.m = m
+   def SetABM(self, a, b, m):
+      self.a = a
+      self.b = b
+      self.m = m
+   
+   def GetA(self):
+      return self.a
+   def GetB(self):
+      return self.b
+   def GetM(self):
+      return self.m
+   
+   def GetFelület(self):
+      return ((self.a * self.b) + (self.a * self.m) + (self.b * self.m)) * 2
+   def GetTérfogat(self):
+      return self.a * self.b * self.m
+
+class Ember:
+   def __init__(self, név, nem):
+      self.név = név
+      self.nem = nem
+   
+   def SetNév(self, név):
+      self.név = név
+   def SetNem(self, nem):
+      self.nem = nem
+   def SetNM(self, név, nem):
+      self.név = név
+      self.nem = nem
+   
+   def GetNév(self):
+      return self.név
+   def GetNem(self):
+      return self.nem
+   
+   def Köszön(self):
+      print(f"Szia én {self.név} vagyok!")
+
