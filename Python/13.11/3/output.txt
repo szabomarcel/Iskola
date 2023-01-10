@@ -1,0 +1,23 @@
+ 0001 table 0002 = 0003 []
+ 0004 file 0005 = 0006 open("Python\\13.11\\3\\input.txt", 0007 "r")
+
+ 0008 for 0009 line 0010 in 0011 file:
+ 0012 lines 0013 = 0014 line.split()
+ 0015 table.append(lines)
+ 0016 file.close()
+
+ 0017 index 0018 = 0019 0.001
+ 0020 col_index 0021 = 0022 0
+ 0023 emptystring 0024 = 0025 ""
+ 0026 file 0027 = 0028 open("Python\\13.11\\3\\output.txt", 0029 "w")
+ 0030 for 0031 t 0032 in 0033 table:
+ 0034 for 0035 l 0036 in 0037 t:
+ 0038 if 0039 col_index 0040 < 0041 5:
+ 0042 file.write(f" 0043 {emptystring.join(str(index).split('.'))[:4]} 0044 {l}")
+ 0045 index 0046 += 0047 0.001
+ 0048 col_index 0049 += 0050 1
+ 0051 else:
+ 0052 file.write(f" 0053 {l}")
+ 0054 col_index 0055 = 0056 0
+ 0057 file.write("\n")
+ 0058 file.close()
