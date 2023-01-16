@@ -1,0 +1,1 @@
+# rekrúzív másolást csinál egy objektumról

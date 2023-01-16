@@ -1,0 +1,62 @@
+a {
+   color: #C0C0C0;
+}
+a:visited {
+   color: #C0C0C0;
+}
+a:active {
+   color: #C0C0C0;
+}
+a:hover {
+   color: #C0C0C0;
+}
+
+body {
+   color: #000;
+   background-color: #000;
+   background-image: url(img/hatter.png);
+}
+
+#main_table {
+   width: 850px;
+   border-spacing: 0;
+   border: 0;
+   margin-left: 120px;
+}
+
+#main_table td {
+   text-align: left;
+}
+
+#main_table-ftd {
+   width: 20px;
+}
+
+#main_table-std {
+   background-color: #fff;
+}
+
+#main_table-std > h2 {
+   text-align: center;
+}
+
+#main_table-std p {
+   margin: 0px 15px 15px 15px;
+}
+
+#second_table {
+   width: 700px;
+   margin: 0 15px 0 15px;
+   border-spacing: 0;
+}
+
+#second_table tr th, td {
+   border-style: solid;
+   border-color: #000;
+   border-width: 2px;
+}
+
+#tizedes {
+   background-color: #000;
+   color: #C0C0C0;
+}

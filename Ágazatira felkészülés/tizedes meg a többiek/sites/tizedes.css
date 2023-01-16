@@ -1,0 +1,72 @@
+a {
+   color: #C0C0C0;
+   text-decoration: none;
+}
+
+#link {
+   text-align: right;
+}
+
+a:visited {
+   color: #C0C0C0;
+}
+a:active {
+   color: #C0C0C0;
+}
+a:hover {
+   color: #C0C0C0;
+}
+
+body {
+   background-image: url(../img/hatter.png);
+   background-color: #fff;
+}
+
+table {
+   margin-left: 150px;
+   width: 700px;
+   color: #fff;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#kiiras {
+   position: absolute;
+   font-size: 55px;
+   font-weight: 700;
+   margin-left: 5%;
+   margin-top: 21%;
+   word-spacing: 10px;
+}
+
+#felso-kep {
+   margin-bottom: 50px;
+}
+
+.egysoros {
+   display:inline-block;
+   margin: 14px;
+}
+
+.egysoros-nev {
+   display: inline-block;
+   margin: 0 70px 0 70px;
+}
+
+.felso-kiirasok {
+   text-align: center;
+   font-size: 30px;
+}
+
+.kissebb-betu {
+   font-size: 15px;
+}
+
+hr {
+   margin: 40px auto 40px auto;
+   width: 80%;
+   text-align: center;
+}
+
+#szöveg {
+   color:#C0C0C0;
+}
