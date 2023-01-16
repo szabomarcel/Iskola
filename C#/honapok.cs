@@ -8,7 +8,7 @@ class Program {
 
    private static void honap_napja(string nap) {
       foreach (string nap in napok) {
-         
+         Console.WriteLine(nao);
       }
    }
 }
