@@ -1,0 +1,38 @@
+footer {
+   background: linear-gradient(90deg,rgb(51, 0, 31),#8a1538 );
+   color: white;
+   font-style: italic;
+   margin: 5px;
+}
+
+.logo {
+   margin: 0 10px 0 10px;
+   max-width: 150px;
+}
+
+.gradient-quasar {
+   background: linear-gradient(90deg,rgb(51, 0, 31),#8a1538 );
+   color: white;
+}
+
+.nav-link {
+   font-family: 'Gill Sans';
+   color: white;
+   text-transform: uppercase;
+
+}
+
+.nav-link:hover {
+   color: red;
+}
+
+h2 {
+   color: darkgreen;
+}
+
+table {
+   text-align: center;
+}
+
+li {
+}
