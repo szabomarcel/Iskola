@@ -1,5 +1,6 @@
-#logo {
+.logo {
     padding-left: 30px;
+    max-width: 150px;
 }
 
 nav {
@@ -7,9 +8,15 @@ nav {
 }
 
 .nav-link {
-    color: white;
+   font-family: 'Gill Sans';
+   text-transform: uppercase;
+   color: white;
     padding-left: 15px;
 }
+
+.nav-link:hover {
+    color: red;
+ }
 
 table {
     margin: auto;
@@ -32,3 +39,19 @@ footer {
     color: white;
     padding: 5px;
 }
+
+h2 {
+    color: darkgreen;
+ }
+
+.bg-danger {
+    color: rgb(255, 255, 255);
+ }
+
+ ul > li {
+    list-style-type: circle;
+ }
+
+ #statisztika {
+    margin-top: 20px;
+ }
